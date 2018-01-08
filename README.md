@@ -9,7 +9,7 @@ This is an example of how to write the newer style of Safari extension where the
 
 ## What does it do?
 
-When you click the toolbar button, it scans the page looking for <A> tags that have an HREF attribute that ends with .jpg, .gif, or .png.  In other words, it finds direct links to images on the current page.  It then rewrites the page as <IMG> tags referencing the full size image.
+When you click the toolbar button, it scans the page looking for `<A>` tags that have an HREF attribute that ends with .jpg, .gif, or .png.  In other words, it finds direct links to images on the current page.  It then rewrites the page as `<IMG>` tags referencing the full size image.
 
 So, if you are on an image gallery page that has a bunch of thumbnails that direct link to images, this will pull out all the full size images into a single page.
 
