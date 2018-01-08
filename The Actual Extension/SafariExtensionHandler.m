@@ -26,7 +26,9 @@
 
 	[window getActiveTabWithCompletionHandler:^(SFSafariTab * _Nullable activeTab) {
 		[activeTab getActivePageWithCompletionHandler:^(SFSafariPage * _Nullable activePage) {
-			[activePage dispatchMessageToScriptWithName:@"message" userInfo:@{@"myKey": @"myValue"}];
+			// Invoke handleMessage() in script.js.  UserInfo is ignored, just for example purposes.
+			
+			[activePage dispatchMessageToScriptWithName:@"message" userInfo:@{ @"myKey": @"myValue" }];
 		}];
 	}];
 }
