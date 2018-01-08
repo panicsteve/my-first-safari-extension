@@ -23,5 +23,11 @@ Build and run the app at least once so Safari notices it.  The app does nothing 
 
 When you make changes to the extension, it may sometimes require some combination of relaunching Safari, toggling the extension off and on, or relaunching the container app to get Safari to notice the changes.
 
+## Ideas for further development
+
+Instead of just showing the images in the browser, the extension could pass the image URLs back to the native app, which could display them in a native image view.  The user could select individual images from this view to save.  Or it could just save everything to a predetermined folder.
+
+Or the extension could be modified to work with more complex galleries -- think Pinterest export, or similar.
+
 Good luck and have fun!
 
