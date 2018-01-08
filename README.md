@@ -1,7 +1,7 @@
 # my-first-safari-extension
 Safari extension template/prototype for image extraction
 
-demo.gif
+![Animated GIF of extension in use](demo.gif)
 
 ## What is it?
 
